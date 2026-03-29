@@ -1,24 +1,20 @@
-# Project Title
+# Smart AC Control using ESP32 (BLE)
 
 ## 📌 Overview
-Short description of your project. What it does and why it exists.
+This project enables wireless control of an Air Conditioner using an ESP32 via Bluetooth Low Energy (BLE). It allows users to turn the AC ON/OFF and monitor its state through a mobile application.
 
 ## 🚀 Features
-- Feature 1
-- Feature 2
-- Feature 3
+- 📱 Control AC using mobile app 
+- 🔄 Real-time AC state update (ON/OFF)
+- 🌡️ Temperature display
+- ⚡ Low power communication using BLE
 
 ## 🛠️ Tech Stack
-- Hardware:
-- Software:
-- Tools:
+- **Hardware:**
+  - ESP32
+  - IR LED
+  - DHT11 Sensor
+  - Resistors
 
-## 🔌 Hardware Setup
-Explain connections clearly.
-
-## ⚙️ Installation & Setup
-Steps to run your project.
-
-```bash
-git clone https://github.com/your-username/repo-name.git
-cd repo-name
+- **Software:**
+  - Arduino IDE
